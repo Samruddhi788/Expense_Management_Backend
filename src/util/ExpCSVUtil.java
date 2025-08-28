@@ -77,7 +77,7 @@ public class ExpCSVUtil {
         bw.write(line);
         bw.newLine();}  
         if(found){
-            System.out.println("User deleted Successfully!");
+            System.out.println("Expense deleted Successfully!");
 
         }   
         else{
