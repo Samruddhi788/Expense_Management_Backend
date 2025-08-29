@@ -10,7 +10,7 @@ import java.util.List;
 import model.Expense;
 
 public class ExpCSVUtil {
-    private static final Path  EXPENSE_CSV=Path.of("data/expenses.csv");
+    private static final Path  EXPENSE_CSV=Path.of("data/expense.csv");
 
     public static void saveExpense(Expense exp){
         String line=exp.getId()+","+exp.getUserId()+","+exp.getAmount()+","+ exp.getCategory()+","+exp.getDate()+","+exp.getDescription();
